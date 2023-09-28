@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	margin-left:40px;
+	margin-right: 40px;
+	padding:0;
+	box-sizing: border-box;
+}
+body {
+  	height: 100%;
+	justify-content: flex-end;
+	flex-direction: column;
+}
+nav {
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+  	font-family: Poppins, arial;
+	font-weight: bold;
+  	height: max-content;
+
+}
+.img{
+	display: flex;
+  	color: white;
+  	justify-content: center;
+  	align-items: bottom;
+	fixed-direction: flex;
+}
+.img img {
+ 	margin-top: 15px;
+ 	margin-left: 255px;
+	height: 100px;
+ 	width: 75px;
+ 	cursor: pointer;
+}
+.nama{
+	margin-top: 10px;
+	justify-content: center;
+ 	font-size: 15px;
+ 	font-family: Poppins, arial;
+	font-weight: bold;
+ 	color: black;
+ 	cursor: pointer;
+ 	text-align: center; 
+}
+.headline{
+	display: flex;
+  	color: black;
+  	justify-content: left;
+  	align-items: bottom;
+	fixed-direction: flex;;
+}
+.headline h1{
+	font-size: 15px;
+ 	font-family: Poppins, arial;
+	font-weight: bold;
+ 	color: black;
+ 	cursor: pointer;
+ 	text-align: center;
+}
+.headline p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 12px;
+ 	font-family: Poppins, arial;
+ 	color: black;
+ 	cursor: pointer;
+ 	text-align: left;
+}
+.border{
+	width:665px;
+	margin-left: 76px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid black;
+}
+.headline ul{
+	margin-left:15px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 15px;
+ 	font-family: Poppins, arial;
+ 	color: black;
+ 	cursor: pointer;
+ 	text-align: left;
+}
+.headline li{
+	margin-bottom: 10px;
+	font-size: 13px;
+ 	font-family: Poppins, arial;
+ 	color: black;
+ 	cursor: pointer;
+ 	text-align: left;
+}
+.headline h2{
+	font-size: 13px;
+ 	font-family: Poppins, arial;
+	font-weight: bold;
+ 	color: black;
+ 	cursor: pointer;
+ 	text-align: center;
+}
+.headline p2{
+	margin-top: 5px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	font-style: italic;
+ 	font-family: Poppins, arial;
+ 	color: black;
+ 	cursor: pointer;
+ 	text-align: left;	
+}
+.headline empt{
+	margin-top:20px;
+}
+.headline li a {
+  	text-decoration: none;
+	margin-left: 10px;
+ 	color: black;
+}
+.headline li a:hover {
+ 	font-weight: bold;
+}
